@@ -1,0 +1,98 @@
+﻿body {
+    background-color: white;
+}
+
+.container1 {
+    /* this holds the logo, name, and title */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkmenu {
+    /* this contains the column of links */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logocontainer {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.linkcontainer {
+    display: flex;
+    margin-top: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00F6FF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.linklogo {
+    /* this is for all of the links and their branding logo */
+    width: 25px;
+    height: 25px;
+}
+
+.linktext {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #5C497F;
+    margin-left: 10px;
+}
+    
+.logo {
+    /* this is the branding logo */
+    width: 100%;
+    height: auto;
+}
+
+.container2 {
+    /* this contains the title and job*/
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    line-height: 0em;
+    justify-items: left;
+}
+
+.title {
+    /* this is my name */
+    font-family: 'PT Sans', sans-serif;
+    color: #0099FF;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.job {
+    /* this is the job */
+    font-family: 'PT Sans', sans-serif;
+    color: #5C497F;
+    font-size: 20px;
+}
+
+p {
+    display: flex;
+    flex-basis: 800px;
+    font-family: 'PT Sans', sans-serif;
+    color: #5C497F;
+    text-align: center;
+}
